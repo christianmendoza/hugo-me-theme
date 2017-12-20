@@ -25,6 +25,15 @@
 <link rel="stylesheet" href="assets/css/me.css" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
+<!-- Background -->
+{{ if .Site.Params.background.image.enable }}
+  <style type="text/css">
+  {{ if .Site.Params.background.image.file }}
+    body.page-template-page-fullsingle-me { background-image: url("{{ .Site.Params.background.image.file }}"); background-position: {{ if .Site.Params.background.image.position }}{{ .Site.Params.background.image.position }}{{ else }}center center{{ end }}; }
+  {{ end }}
+  </style>
+{{ end }}
+
 <!-- Google Analytics -->
 {{ if and (.Site.GoogleAnalytics) (not (in (printf "%#v" .Site.BaseURL) "localhost")) }}
 	{{ template "_internal/google_analytics.html" . }}
