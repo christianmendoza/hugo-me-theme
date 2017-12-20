@@ -5,7 +5,12 @@
   {{ partial "head" . }}
 </head>
 
-<body id="fullsingle" class="page-template-page-fullsingle-me">
+<body id="fullsingle" class="page-template-page-fullsingle-me{{ if .Site.Params.background.video.enable }} me-video{{ end }}">
+
+  <!-- Video -->
+  {{ if .Site.Params.background.video.enable }}
+    {{ partial "video" . }}
+  {{ end }}
 
   <div class="fs-me">
 

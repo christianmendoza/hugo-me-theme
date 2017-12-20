@@ -1,0 +1,19 @@
+<div class="me-video-container">
+
+  <!-- YouTube Video -->
+  {{ if .Site.Params.background.video.youtubeId }}
+
+    <div class="video-wrap">
+      <div class="video-container">
+        <iframe class="video-content" src="https://www.youtube.com/embed/{{ .Site.Params.background.video.youtubeId }}?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist={{ .Site.Params.background.video.youtubeId }}&amp;autoplay=1{{ if .Site.Params.background.video.mute }}&amp;mute=1{{ end }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  <!-- Self-Hosted Video -->
+  {{ else if .Site.Params.background.video.file }}
+
+    <video class="video" src="{{ .Site.Params.background.video.file }}" loop autoplay{{ if .Site.Params.background.video.mute }} muted{{ end }}></video>
+    
+  {{ end }}
+
+</div>
