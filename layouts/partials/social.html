@@ -1,0 +1,11 @@
+<ul>
+  {{ range .Site.Params.social.icon }}
+    <li>
+      <a class="{{ .className }}" href="{{ .url }}">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path fill="none" d="{{ .icon }}"></path>
+        </svg>
+      </a>
+    </li>
+  {{ end }}
+</ul>

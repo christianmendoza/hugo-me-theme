@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body id="fullsingle" class="page-template-page-fullsingle-me">
+
+  <div class="fs-me">
+
+    <!-- Content Container -->
+    <div class="me-content">
+
+    	<!-- Logo -->
+      <div class="logo">
+        <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.logoAlt }}" />
+      </div>
+
+      <!-- Bio -->
+      <div class="bio">
+        <p>{{ .Site.Params.bio | markdownify }}</p>
+      </div>
+
+      <div class="network">
+
+      	<!-- Social Icons -->
+        {{ if .Site.Params.social.icon }}
+          {{ partial "social" . }}
+        {{ end }}
+
+      	<!-- Copyright -->
+      	{{ partial "footer" . }}
+
+      </div>
+    </div>  
+
+  </div>
+
+</body>
+</html>
