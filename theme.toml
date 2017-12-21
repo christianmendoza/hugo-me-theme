@@ -1,21 +1,21 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Hugo Me Theme"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
-tags = []
+name = "Me"
+license = "Creative Commons Attribution 3.0 Unported"
+licenselink = "//github.com/christianmendoza/hugo-me-theme/blob/master/LICENSE.md"
+description = "Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image or video, logo, bio and icons."
+homepage = "//github.com/christianmendoza/hugo-me-theme"
+tags = ["minimal", "onepage", "one page", "responsive", "personal"]
 features = []
-min_version = "0.31.1"
+min_version = "0.21"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Christian Mendoza"
+  homepage = "//iamchristian.me"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
+  name = "One Page Love"
+  homepage = "https://onepagelove.com/me"
   repo = ""
