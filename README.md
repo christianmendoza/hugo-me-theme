@@ -1,6 +1,6 @@
 # Me
 
-Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image or video, logo, bio and icons. The theme also includes functionality for YouTube video backgrounds and Self-Hosted video backgrounds. It is a direct port of [One Page Love's](//onepagelove.com) [Me template](//onepagelove.com/me).
+Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image or video, logo, bio and icons. The theme also includes functionality for YouTube video backgrounds and Self-Hosted video backgrounds. It is a port of [Me](//onepagelove.com/me) by [One Page Love](//onepagelove.com).
 
 ![Hugo Me Theme screenshot](https://raw.githubusercontent.com/christianmendoza/hugo-me-theme/master/images/screenshot.png)
 
@@ -173,7 +173,7 @@ The original template is released under the [Creative Commons Attribution 3.0 Li
 
 ## Annotations
 
-- [Original Me Template](//onepagelove.com/me) by One Page Love
+- Original [Me](//onepagelove.com/me) Template by [One Page Love](//onepagelove.com)
 - [Dude Image](https://unsplash.com/photos/sok0YssrV5g) by Forrest Cavale
 - [Asian Fan Shop Video](http://www.wedistill.io/videos/c0195-1-1) by Galen Crout
 - [SVG Social Icons](http://svgicons.sparkk.fr/) by [Baptiste Briel](https://twitter.com/BaptisteBriel)
